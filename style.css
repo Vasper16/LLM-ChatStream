@@ -1,0 +1,69 @@
+/* Base Layout */
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Chat Bubbles */
+.chat-bubble {
+    padding: 1rem;
+    border-radius: 15px;
+    margin: 0.5rem 0;
+    max-width: 90%;
+    line-height: 1.6;
+    word-wrap: break-word;
+    font-size: 16px;
+}
+
+.user-bubble {
+    margin-left: auto;
+    text-align: right;
+}
+
+.assistant-bubble {
+    margin-right: auto;
+    text-align: left;
+}
+
+/* Sidebar Styling */
+section[data-testid="stSidebar"] {
+    padding-top: 2rem;
+}
+
+/* Metric Text */
+[data-testid="stMetricValue"] {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Chat Input Styling */
+[data-testid="stChatInput"] textarea {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: none;
+    resize: none;
+}
+
+/* Focused Chat Input */
+[data-testid="stChatInput"] textarea:focus {
+    border: 1px solid #555;
+    box-shadow: 0 0 0 2px #444;
+}
+
+/* Download Button */
+button[title="Download"] {
+    border-radius: 10px !important;
+    font-weight: bold;
+}
+
+/* Typing Cursor Animation */
+.chat-bubble::after {
+    animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
