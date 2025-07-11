@@ -7,8 +7,8 @@ import datetime
 
 # ---------------------- Streamlit Config FIRST ----------------------
 st.set_page_config(
-    page_title="Chat with Gemini-Pro!",
-    page_icon=":brain:",
+    page_title="ChatStream",
+    page_icon="🤖",
     layout="centered",
 )
 
@@ -104,7 +104,7 @@ with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # ---------------------- Title ----------------------
-st.title("🤖 Gemini Pro - ChatBot")
+st.title("🤖 ChatStream")
 
 # ---------------------- Display Chat History ----------------------
 def translate_role_for_streamlit(user_role):
