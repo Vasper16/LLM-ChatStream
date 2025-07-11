@@ -95,12 +95,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 💡 Maintained by @Vasper16. Feel free to star ⭐ the repo if you found this useful!
 
 ---
-
-Let me know if you’d like:
-
-- A markdown file export (`README.md`)
-- Help generating screenshots or GIF previews
-- Contributor/credits section
-- Deployment instructions (e.g., Streamlit Cloud, Heroku)
-
-Would you like me to help push this to your GitHub repo now?
