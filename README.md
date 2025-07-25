@@ -1,6 +1,6 @@
 # 🤖 LLM ChatStream
 
-LLM ChatStream is an advanced AI chatbot powered by **Gemini 1.5 Flash** from Google Generative AI. Built with Streamlit, it provides a clean, responsive UI with theme switching, chat history, quick prompts, and PDF export — all designed for productivity, education, and real-world LLM applications.
+LLM ChatStream is an advanced AI chatbot powered by **Gemini 1.5 Flash** from Google Generative AI. Built with Streamlit, it provides a clean, responsive UI with theme switching, chat history, quick prompts, and PDF export - all designed for productivity, education, and real-world LLM applications.
 
 ---
 
